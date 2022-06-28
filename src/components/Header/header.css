@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #E5E5E5;
+}
+
+.nav-header {
+    height: 72px;
+    width: 100%;
+    background-color: #0064EB;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form {
+    margin-left: 22px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+input::placeholder {
+    position: absolute;
+    z-index: 1;
+    color: #808080;
+}
+.input-form{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #808080;
+
+}
+
+.logo {
+    padding-left: 41px;
+}
+
+.btn {
+    background-image: url('../../../public/search.svg');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-position: center;
+    background-size: 17px 17px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.initial-block {
+    width: 210px;
+    height: 196px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 197px;
+}
+
+.search-block {
+    width: 110px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-search {
+    display: block;
+    margin: auto;
+    padding-top: 23px;
+}
+
+.initial-title {
+    height: 62px;
+    text-align: center;
+    line-height: 140%;
+    font-size: 22px;
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-avatar {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.user-name {
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.user-login {
+    color: #0064EB;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.results-list {
+    margin-top: 40px;
+    margin-left: 56px;
+    width: 292px;
+}
+
+.follow-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    
+}
+.followers-field {
+    flex-grow: 0.5;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.following-field {
+    flex-grow: 0.5;
+    display: flex;
+    flex-direction: row;
+}
+
+.following-data, .followers-data {
+    margin-top: 0;
+    margin-left: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.flex-container {
+    display: inline-flex;
+}
+
+.repo-request {
+    margin-left: 100px;
+}
+
+.row {
+    display: block;
+    width: 877px;
+    height: 112px;
+    padding-top: 24px;
+    margin-top: 24px;
+    margin-right: 56px;
+    background-color: #ffffff;
+}
+
+.repo-title {
+    margin-top: 28px;
+    margin-bottom: 29px;
+}
+
+.repo-name {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #0064EB;
+    padding-top: 40px;
+    padding-left: 32px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.repo-descripe {
+    padding-left: 32px;
+    padding-top: 16px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.page-list {
+    display: inline;
+}
+
+.page-link {
+    padding-right: 16px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.paginate-bar {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 24px;
+    
+    justify-content: flex-end;
+}
+
+.pagination {
+    padding-right: 209px;
+}
